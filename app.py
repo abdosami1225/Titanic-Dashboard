@@ -3,6 +3,7 @@ from dash import Dash, dcc, html, Input, Output
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+import os
 
 df = pd.read_csv('Titanic.csv')
 df['FamilySize'] = df['SibSp'] + df['Parch'] + 1
@@ -217,8 +218,8 @@ def update_all_charts(selected_class, selected_gender):
 
     return fig1, fig2, fig3, fig4, fig5, fig6, fig7
 
-
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))
+    app.run(host="0.0.0.0", port=port)
 
 
