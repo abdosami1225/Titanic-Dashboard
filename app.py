@@ -15,7 +15,6 @@ server = app.server
 
 app.layout = html.Div([
 
-    # Header
     html.Div([
         html.H1("🚢 Titanic Survival Analysis Dashboard",
                 style={'textAlign': 'center', 'color': '#2c3e50', 'marginTop': 20}),
@@ -24,7 +23,6 @@ app.layout = html.Div([
 
     html.Hr(),
 
-    # Stats Cards
     html.Div([
         html.Div([
             html.H3(f"{len(df)}",
@@ -116,7 +114,7 @@ app.layout = html.Div([
     html.Div([
         html.P("Built with Dash & Plotly | Titanic Dataset Analysis",
                style={'textAlign': 'center', 'color': '#7f8c8d'}),
-        html.P("Created for Data Visualization Assignment",
+        html.P("Developed by Abdelrahman Samy | Data Visualization Project",
                style={'textAlign': 'center', 'color': '#95a5a6', 'fontSize': 12}),],
              style={'marginBottom': 20}),
 
@@ -222,3 +220,4 @@ def update_all_charts(selected_class, selected_gender):
 
 if __name__ == '__main__':
     app.run(debug=True, host='127.0.0.1', port=8050)
+
