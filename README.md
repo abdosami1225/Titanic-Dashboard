@@ -51,56 +51,6 @@ Based on the analysis of 418 passengers:
 - **Pandas 2.1.4** - Data manipulation
 - **Gunicorn 21.2.0** - Production server
 
-## 🚀 Quick Start
-
-### Local Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/abdosami1225/titanic-dashboard.git
-cd titanic-dashboard
-```
-
-2. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run the dashboard**
-```bash
-python app.py
-```
-
-4. **Open browser**
-```
-http://127.0.0.1:8050/
-```
-
-## 📁 Project Structure
-
-```
-titanic-dashboard/
-│
-├── app.py                    # Main dashboard application
-├── Titanic.csv               # Dataset
-├── requirements.txt          # Python dependencies
-├── Procfile                  # Deployment configuration
-└── README.md                 # This file
-```
-
-## 🌐 Deployment
-
-This dashboard is deployed on Render (free tier).
-
-### Deploy Your Own
-
-1. Fork this repository
-2. Sign up at [render.com](https://render.com)
-3. Connect your GitHub account
-4. Create new Web Service
-5. Select this repository
-6. Deploy!
-
 ## 📊 Dataset Information
 
 - **Source**: Titanic passenger manifest
@@ -119,15 +69,6 @@ This dashboard is deployed on Render (free tier).
 7. **Survival Rate Heatmap** (Gender × Class)
 8. **Family Size Analysis** (Bar Chart)
 9. **Correlation Matrix** (Heatmap)
-
-## 🔧 Configuration
-
-To modify the dashboard:
-
-1. Edit `app.py` for layout changes
-2. Modify callback functions for interactivity
-3. Update color schemes in the color_discrete_map
-4. Add new visualizations in the layout section
 
 ## 📝 License
 
@@ -150,7 +91,7 @@ Give a ⭐ if this project helped you!
 
 ## 📧 Contact
 
-Questions? Reach out at your.email@example.com
+Questions? Reach out at elhassawyabdelrahman@gmail.com
 
 ---
 
